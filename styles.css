@@ -19,8 +19,12 @@ body {
     display: inline-flex;
     font-size: 24px;
     color: #f9faf8;
-    justify-content: center;
+    justify-content: flex-start;
     flex: 1;
+}
+
+.header .empty-spacing {
+    width: 450px;
 }
 
 .right-text {
@@ -76,12 +80,12 @@ a:active {
 }
 
 .left-side {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
-    flex: 1;
     background-color: #1F2937;
     align-items: flex-start;
     justify-content: center; 
+    flex: 1;
 }
 
 .hero-main-text {
@@ -103,10 +107,9 @@ a:active {
 .subtext {
     font-size: 18px;
     color: #e5e7eb;
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-    width: 400px;
     padding-bottom: 10px;
 }
 
@@ -129,7 +132,7 @@ a:active {
 .right-side .text {
     border: 1px solid gray;
     background-color: gray;
-    padding: 100px;
+    padding: 100px 150px;
     margin-right: 325px;
     width: 400px;
     color: white;
