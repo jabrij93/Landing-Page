@@ -33,7 +33,7 @@ body {
     display: inline-flex;
     flex: 1;
     justify-content: flex-start;
-    margin: auto;
+    margin-right: 480px;
 }
 
 .right-text li {
